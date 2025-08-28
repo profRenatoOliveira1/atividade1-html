@@ -1,31 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+img {
+    width: 30px;
+    height: 30px;
+}
 
 table {
     border: 1px solid;
     border-collapse: collapse;
-    width: 30%;
-
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    width: 75%;
 }
 
 th {
     border-bottom: 1px solid;
     background-color: #04AA6D;
-    color: azure;
+    color: #FFF;
 }
 
 tr:hover {
     background-color: #999999;
-    color: #fff;
+    color: #FFF;
 }
 
 td:nth-child(n+3):nth-child(-n+11) {
     text-align: center;
-}
-
-img {
-    width: 20px;
-    height: 20px;
 }
